@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header, menu,.sidebar, .main-content, #footer{
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Calibri, Arial;
+  padding: 1rem;
+}
+
+header, #footer{
+  background-color: #b9936c;
+}
+
+menu{
+  background-color: #dac299;
+}
+
+.sidebar{
+  background-color: #c4b7a6;
+  flex-grow: 1;
+}
+
+.main-content{
+  background-color: #e6e2d3;
+  flex-grow: 10;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+ .content-wrapper{
+   display: flex;
+   height: 25rem;
+ }
